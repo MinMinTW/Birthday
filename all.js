@@ -77,7 +77,7 @@ const swiper = new Swiper('.swiper', {
         <h2 class="Newh2">6/26-6/28 我要自己去澎湖囉!</br>
         Bye!</h2>
         <div class="Bye">
-        <img  src="css/images/13.jpg" width="500px">
+        <img  src="css/images/13.jpg" width="480px">
         </div>
         `
         

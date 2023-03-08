@@ -161,6 +161,6 @@ h2{
 
 }
 .Bye{
-    width: 500px;
+    max-width: 500px;
     margin-top:20px;
 }
