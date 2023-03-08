@@ -68,14 +68,17 @@ body{
 .container{
     margin: 3rem auto 1.5rem auto;
     padding: 0 12px;
-    max-width: 500px;
+    max-width: 500px
 }
-
-@media (max-width: 575px) {
-    .container {
-     margin-top: 1.5rem;
+@media (max-width: 575px){
+    .container{
+        margin-top: 1.5rem;
     }
+    h1{
+        font-size: 2rem;
+        margin-bottom: 1rem;;
     }
+}
 h1{
     text-align: center;
     font-size: 3rem; /*rem是以根元素為基準*/
