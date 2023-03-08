@@ -118,7 +118,7 @@ h2{
 .cities li{
     border: 3px solid ;
     font-size: 25px;
-    width: 150px;
+    width: 120px;
     margin-top: 20px;
     padding: 15px;
     text-align: center;
@@ -130,7 +130,7 @@ h2{
     background: lightgoldenrodyellow;
 }
 .chance{
-    width: 500px;
+    max-width: 500px;
     text-align: center;
     margin-top: 30px;
     color: tomato;
