@@ -75,7 +75,9 @@ const swiper = new Swiper('.swiper', {
         `<h1>Happy Birthday</h1>
         <h2 class="Newh2">6/26-6/28 我要自己去澎湖囉!</br>
         Bye!</h2>
-        <img src="css/images/13.jpg" width="450px">
+        <div class="Bye">
+        <img  src="css/images/13.jpg" width="500px">
+        </div>
         `
         
       }

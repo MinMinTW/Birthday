@@ -68,7 +68,7 @@ body{
 .container{
     margin: 3rem auto 1.5rem auto;
     padding: 0 12px;
-    max-width: 500px
+    max-width: 510px
 }
 @media (max-width: 575px){
     .container{
@@ -98,7 +98,7 @@ h2{
 }
 .swiper {
     margin-top: 30px;
-    max-width: 500px;
+    width: 500px;
     height: 300px;
     box-shadow : 3px 3px 5px darkgray;
     border-radius: 10px;
@@ -107,7 +107,7 @@ h2{
     color: #FFF0F5 !important;
 }
 .menu{
-    max-width: 500px;
+    width: 500px;
 }
 .cities{
     display: flex;
@@ -118,7 +118,7 @@ h2{
 .cities li{
     border: 3px solid ;
     font-size: 25px;
-    width: 120px;
+    width: 130px;
     margin-top: 20px;
     padding: 15px;
     text-align: center;
@@ -130,7 +130,7 @@ h2{
     background: lightgoldenrodyellow;
 }
 .chance{
-    max-width: 500px;
+    width: 500px;
     text-align: center;
     margin-top: 30px;
     color: tomato;
@@ -150,7 +150,17 @@ h2{
     font-weight: bold;
     color:	#0d1e7b	;
 }
-.congrats,.Newh2{
+.congrats{
     color: red;
     font-weight: bold;
+}
+.Newh2{
+    color: red;
+    font-weight: bold;
+    line-height: 1.5;
+
+}
+.Bye{
+    width: 500px;
+    margin-top:20px;
 }
