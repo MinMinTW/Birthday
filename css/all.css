@@ -98,7 +98,7 @@ h2{
 }
 .swiper {
     margin-top: 30px;
-    width: 500px;
+    max-width: 500px;
     height: 300px;
     box-shadow : 3px 3px 5px darkgray;
     border-radius: 10px;
@@ -107,7 +107,7 @@ h2{
     color: #FFF0F5 !important;
 }
 .menu{
-    width: 500px;
+    max-width: 500px;
 }
 .cities{
     display: flex;
