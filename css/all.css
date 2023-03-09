@@ -111,7 +111,7 @@ h2{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 .cities li{
     border: 3px solid ;

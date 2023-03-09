@@ -39,14 +39,12 @@ const swiper = new Swiper('.swiper', {
         `<p class="newContnet">
 
         爸爸、媽媽 : 生日快樂 !</br>
-        </br>
+       
         <span class="congrats">恭喜獲得</br>
         6/24-6/26 澎湖三天兩夜住宿券</br>
         
        一起去澎湖玩吧!</span></br>
-        </br>
         GOGO!</br>
-
         柏丞
         </p>`
 
