@@ -70,15 +70,20 @@ const swiper = new Swiper('.swiper', {
           
     }else{
         chances-=1;
-        chance.innerHTML=`<p>您還剩下 ${chances} 次機會</p>`
+        if(chances>=1){
+          chance.innerHTML=`<p>您還剩下 ${chances} 次機會</p>`
+          alert("您還剩下 "+chances+" 次機會");
+        }
     }
     if(chances == 0){
+      alert("沒機會了QQ");
+
         container.innerHTML =
         `<h1>Happy Birthday</h1>
         <h2 class="Newh2">6/24-6/26 我要自己去澎湖囉!</br>
         Bye!</h2>
         <div class="Bye">
-        <img  src="css/images/13.jpg" width="450px">
+        <img  src="css/images/13.jpg" width="400px">
         </div>
         `
         

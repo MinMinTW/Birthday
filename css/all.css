@@ -78,6 +78,9 @@ body{
         font-size: 2rem;
         margin-bottom: 1rem;;
     }
+    .swiper{
+        height: 300px;
+    }
 }
 h1{
     text-align: center;
@@ -102,10 +105,9 @@ h2{
 .swiper-button-prev,.swiper-button-next{
     color: #FFF0F5 !important;
 } 
-.menu ul{
-    max-width: 500px;
-}
+
 .cities{
+    max-width: 500px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -114,7 +116,6 @@ h2{
 .cities li{
     border: 3px solid ;
     font-size: 25px;
-    width: 125px;
     margin-top: 20px;
     padding: 15px;
     text-align: center;
@@ -154,11 +155,14 @@ h2{
     color: red;
     font-weight: bold;
     line-height: 1.5;
+    margin-top: 50px;
 
 }
 .Bye{
     max-width: 500px;
     margin-top: 50px;
+    display: flex;
+    justify-content: center;
 }
 .travel{
     margin-top:60px;
