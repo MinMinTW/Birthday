@@ -73,11 +73,11 @@ const swiper = new Swiper('.swiper', {
     }
     if(chances == 0){
         container.innerHTML =
-        `<h1>Happy Birthday</h1>
+        `<div class="Bye">
+        <h1>Happy Birthday</h1>
         <h2 class="Newh2">6/26-6/28 我要自己去澎湖囉!</br>
         Bye!</h2>
-        <div class="Bye">
-        <img  src="css/images/13.jpg" width="480px">
+        <img  src="css/images/13.jpg" width="450px">
         </div>
         `
         

@@ -78,6 +78,9 @@ body{
         font-size: 2rem;
         margin-bottom: 1rem;;
     }
+    .Bye{
+        margin-top:20px;
+    }
 }
 h1{
     text-align: center;
@@ -86,10 +89,6 @@ h1{
     font-family: "Baloo Tamma 2";
     letter-spacing: 0.5rem;
     font-weight: bold;
-    @media (max-width: 575px) {
-    font-size: 2rem;
-    margin-bottom: 1rem;
-    }
 }
 h2{
     font-family: "Baloo Tamma 2";
@@ -118,7 +117,7 @@ h2{
 .cities li{
     border: 3px solid ;
     font-size: 25px;
-    width: 130px;
+    width: 125px;
     margin-top: 20px;
     padding: 15px;
     text-align: center;
