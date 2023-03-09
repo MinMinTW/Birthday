@@ -30,7 +30,8 @@ const swiper = new Swiper('.swiper', {
   let chances = 2;
 
   cities.addEventListener('click', function(e){
-    if(e.target.value == "1"){
+    if(e.target.nodeName == "LI"){
+    if(e.target.textContent == "澎湖"){
         h2.textContent = "Let's go to 澎湖!";
         h2.classList.add("myClass");
 
@@ -40,7 +41,7 @@ const swiper = new Swiper('.swiper', {
         爸爸、媽媽 : 生日快樂 !</br>
         </br>
         <span class="congrats">恭喜獲得</br>
-        6/26-6/28 澎湖三天兩夜住宿券</br>
+        6/24-6/26 澎湖三天兩夜住宿券</br>
         
        一起去澎湖玩吧!</span></br>
         </br>
@@ -73,15 +74,16 @@ const swiper = new Swiper('.swiper', {
     }
     if(chances == 0){
         container.innerHTML =
-        `<div class="Bye"><h1>Happy Birthday</h1>
-        <h2 class="Newh2">6/26-6/28 我要自己去澎湖囉!</br>
+        `<h1>Happy Birthday</h1>
+        <h2 class="Newh2">6/24-6/26 我要自己去澎湖囉!</br>
         Bye!</h2>
-        
+        <div class="Bye">
         <img  src="css/images/13.jpg" width="450px">
         </div>
         `
         
       }
+    }
   })
 
  
