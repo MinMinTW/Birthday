@@ -80,11 +80,11 @@ const swiper = new Swiper('.swiper', {
 
         container.innerHTML =
         `<h1>Happy Birthday</h1>
-        <h2 class="Newh2">6/24-6/26 我要自己去澎湖囉!</br>
-        Bye!</h2>
         <div class="Bye">
         <img  src="css/images/13.jpg" width="400px">
         </div>
+        <h2 class="Newh2">6/24-6/26 我要自己去澎湖囉!</br>
+        Bye!</h2>
         `
         
       }
